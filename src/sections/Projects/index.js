@@ -7,7 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <section className='projects-section'>
-        <h2 className='project-title'>Projects</h2>
+        <h2>Projects</h2>
         <Grid>
           <Row>
             <Col xs={12} sm={6} md={4}>
