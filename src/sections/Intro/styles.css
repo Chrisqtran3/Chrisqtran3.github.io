@@ -17,9 +17,17 @@
   width: 50%;
 }
 
+.intro-img-div {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
 .intro-img {
-  border-radius: 50%;
   border: 5px solid white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
 }
 
 .icons {
