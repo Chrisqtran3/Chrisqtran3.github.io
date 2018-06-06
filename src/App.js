@@ -15,7 +15,9 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Intro />
+        <ScrollableAnchor id={'home'}>
+          <Intro />
+        </ScrollableAnchor>
         <ScrollableAnchor id={'about'}>
           <About />
         </ScrollableAnchor>
