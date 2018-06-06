@@ -7,9 +7,7 @@
 
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .contact-container {
@@ -17,5 +15,16 @@
 }
 
 .contact-container p {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 540px) {
+  .flex-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-container p {
+    font-size: 2.5rem;
+  }
 }
