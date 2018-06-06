@@ -2,6 +2,8 @@ import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import './styles.css'
 
+import resume from './resume.pdf'
+
 const NavComponent = () => {
   return (
     <Navbar className='navBar navbar-fixed-top' collapseOnSelect>
@@ -22,9 +24,9 @@ const NavComponent = () => {
           <NavItem href='#contact'>
             Contact
           </NavItem>
-          <NavItem href='#'>
-            Resume
-          </NavItem>
+          <Navbar.Text>
+            <Navbar.Link href={resume} target='_blank'>Resume</Navbar.Link>
+          </Navbar.Text>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
