@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Thumbnail, Button } from 'react-bootstrap';
 
+import flixRate from './app-screenshot.png';
+
 import './styles.css'
 
 class Projects extends Component {
@@ -11,32 +13,13 @@ class Projects extends Component {
         <Grid>
           <Row>
             <Col xs={12} sm={6} md={4}>
-              <Thumbnail src='//placehold.it/250x250'>
-              <h3>Project #1</h3>
-              <p>Description</p>
+              <Thumbnail src={flixRate} alt='Flix Rate app'>
+              <h3>FlixRate</h3>
+                <p>Web application that allows users to search and rate their favorite movies and TV shows using the OMDB API</p>
               <p>
-                <Button bsStyle="primary">Link</Button>&nbsp;
-                <Button bsStyle="default">Github</Button>
-              </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={12} sm={6} md={4}>
-              <Thumbnail src='//placehold.it/250x250'>
-              <h3>Project #2</h3>
-              <p>Description</p>
-              <p>
-                <Button bsStyle="primary">Link</Button>&nbsp;
-                <Button bsStyle="default">Github</Button>
-              </p>
-              </Thumbnail>
-            </Col>
-            <Col xs={12} sm={6} md={4}>
-              <Thumbnail src='//placehold.it/250x250'>
-              <h3>Project #3</h3>
-              <p>Description</p>
-              <p>
-                <Button bsStyle="primary">Link</Button>&nbsp;
-                <Button bsStyle="default">Github</Button>
+                <Button bsStyle="primary">
+                  <a target='_blank' rel="noopener noreferrer" href='https://flix-rate.herokuapp.com/'>Link</a>
+                </Button>&nbsp;
               </p>
               </Thumbnail>
             </Col>
