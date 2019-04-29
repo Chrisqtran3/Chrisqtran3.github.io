@@ -1,13 +1,14 @@
 {
-  "main.css": "static/css/main.cdfb75b1.css",
-  "main.css.map": "static/css/main.cdfb75b1.css.map",
-  "main.js": "static/js/main.8353c20c.js",
-  "main.js.map": "static/js/main.8353c20c.js.map",
+  "main.css": "static/css/main.26a94256.css",
+  "main.css.map": "static/css/main.26a94256.css.map",
+  "main.js": "static/js/main.aa56fd68.js",
+  "main.js.map": "static/js/main.aa56fd68.js.map",
+  "static/media/app-screenshot.png": "static/media/app-screenshot.6c783436.png",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
   "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
   "static/media/intro-img.png": "static/media/intro-img.2b4f9c83.png",
-  "static/media/resume.pdf": "static/media/resume.dd3f2cef.pdf"
+  "static/media/resume.pdf": "static/media/resume.d029f97e.pdf"
 }
